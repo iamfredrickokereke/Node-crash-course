@@ -16,6 +16,8 @@ let name = function (name) {
     return name
 }
 
-result1 = name("fred")
+// calling the function without storing in a variable will return just a function object.
 
-console.log(result1)
+ answer = name("fredrick")
+
+console.log(answer)
